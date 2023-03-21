@@ -1,27 +1,27 @@
-@media (min-width: 1940px) {
+@media (min-width: 1960px) {
     .intro__subtitle {
-        margin-bottom: 150px;
+        margin-bottom: 170px;
     }
     .video__content {
         position: absolute;
-        z-index: 3;
+        z-index: 2;
         left: 0px;
     }
 }
 
-@media (max-width: 1172px) {
+@media (max-width: 1182px) {
     .wrapper {
-        max-width: 940px;
+        max-width: 920px;
         margin: 0 auto;
     }
     .header__wrapper {
-        height: 100px;
+        height: 102px;
         grid-area: header;
         display: grid;
         grid-template: 1fr / 1fr minmax(auto, 150px) minmax(auto, 1100px) 1fr;
     }
     .header__logo img, .footer__logo img {
-        max-width: 50px;
+        max-width: 52px;
         display: block;
     }
     .footer {
@@ -32,10 +32,10 @@
     }
     .intro__row {
         position: absolute;
-        bottom: 50px;
+        bottom: 52px;
     }
     .our__service-content:nth-child(3), .our__service-content:nth-child(5) {
-        padding-left: 0px;
+        padding-left: 1px;
     }
     .advantages_row {
         display: flex;
